@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Squid Game Characters</title>
+    <style>
+      h1 {
+        text-align: center;
+        text-decoration: underline;
+        color: green;
+      }
+      button {
+        display: block;
+        margin: 0 auto;
+        padding: 8px 10px 8px 10px;
+        background-color: honeydew;
+        transition: all 200ms ease-in-out;
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+        border-radius: 10px;
+        border: 2px solid green;
+        box-shadow: 10px;
+      }
+      h3 {
+        text-align: center;
+        font-size: 22px;
+      }
+      h2 {
+        text-align: center;
+      }
+      img {
+        width: 300px;
+        max-width: 100%;
+        margin: 0 auto 60px auto;
+        line-height: 5px;
+        border-radius: 10px;
+        display: inline;
+
+        text-align: center;
+        overflow: hidden;
+      }
+      body {
+        background: linear-gradient(
+          179.4deg,
+          rgb(146, 221, 219) 31.2%,
+          rgb(236, 167, 219) 90.9%
+        );
+      }
+
+      h4 {
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px;
+      }
+      div {
+        text-align: center;
+        font-size: 18px;
+      }
+      h5 {
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      button:hover {
+        background-color: green;
+        color: black;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>
+      Discover <strong><em>Squid Game</em></strong> Characters
+    </h1>
+    <button>Ready when you are🙃</button>
+    <h3>Stay Calm</h3>
+    <h2>
+      <div class="question">
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/024/333/original/anxious_question.png?1641563863"
+          alt="anxious question"
+        />
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/024/334/original/smile_question.png?1641564016"
+          alt="smile question"
+        />
+      </div>
+    </h2>
+    <h4>
+      You should watch <strong><em>Squid Game</em></strong> if you haven't😉
+    </h4>
+    <div>
+      <a href="https://www.instagram.com/p/CFRqi8ahEzE/" target="_blank"
+        >Reach me on😍</a
+      >
+    </div>
+    <h5>Coded by Miyyah🧑‍💻</h5>
+    <script>
+      alert("Hi! Click the Ready when you are button 😊");
+      function squidGame() {
+        let name = prompt("What is your name?");
+        let h3 = document.querySelector("h3");
+        name = name.trim();
+        name = name.toLowerCase();
+        let pick = prompt("Pick a number from 1-8");
+        let h2 = document.querySelector("h2");
+        pick = pick.trim();
+
+        if (pick == 1) {
+          h3.innerHTML = "Gave up her life! 🙃 <br/>";
+          h2.innerHTML =
+            `<img src ="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/024/394/original/ji_yeong_image.jpg?1641643048" alt="ji yeong" />` +
+            " " +
+            `<img src= "https://s3.amazonaws.com/shecodesio-production/uploads/files/000/024/381/original/0001-16055872836_20220106_231739_0000.png?1641640129" alt="ji yeong"/>`;
+        } else if (pick == 2) {
+          h3.innerHTML = "Tries his best😞<br/>";
+          h2.innerHTML =
+            `<img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/024/406/original/gi_hun_fr_fr.jpg?1641655831"alt = "gi hun"/>` +
+            " " +
+            `<img src = "https://s3.amazonaws.com/shecodesio-production/uploads/files/000/024/405/original/0001-16056671949_20220106_233509_0000.png?1641655628" alt = "gi hun"/>`;
+        } else if (pick == 3) {
+          h3.innerHTML = "A pure heart🤩 <br/>";
+          h2.innerHTML =
+            `<img src ="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/024/409/original/sae_byeok_fr_fr.jpg?1641656885" alt = "sae byeok"/>` +
+            " " +
+            `<img src = "https://s3.amazonaws.com/shecodesio-production/uploads/files/000/024/411/original/0001-16057338000_20220106_235010_0000.png?1641657118" alt = "sae byeok"/>`;
+        } else if (pick == 4) {
+          h3.innerHTML = "Strange woman😏<br/>";
+          h2.innerHTML =
+            `<img src ="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/024/412/original/min_yeo.jpg?1641657892" alt ="min yeo"/>` +
+            " " +
+            `<img src ="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/024/413/original/20220106_235438_0000.png?1641658046"alt ="min yeo"/>`;
+        } else if (pick == 5) {
+          h3.innerHTML = "Too nice fr😓<br/>";
+          h2.innerHTML =
+            `<img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/024/415/original/ali.jpg?1641658616" alt="ali"/>` +
+            " " +
+            `<img src ="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/024/416/original/0001-16056292601_20220106_232645_0000.png?1641658636" alt ="ali"/>`;
+        } else if (pick == 6) {
+          h3.innerHTML = "Too selfish😤<br/>";
+          h2.innerHTML =
+            `<img src = "https://s3.amazonaws.com/shecodesio-production/uploads/files/000/024/417/original/Sangwoo.jpg?1641658997" alt="sang woo"/>` +
+            " " +
+            `<img src = "https://s3.amazonaws.com/shecodesio-production/uploads/files/000/024/418/original/0001-16057743570_20220106_235915_0000.png?1641659018" alt ="sang woo"/>`;
+        } else if (pick == 7) {
+          h3.innerHTML = "Bully and troublemaker🧐<br/>";
+          h2.innerHTML =
+            `<img src = "https://s3.amazonaws.com/shecodesio-production/uploads/files/000/024/421/original/Jang_Deok-su.jpg?1641659578" alt ="deok su"/>` +
+            " " +
+            `<img src = "https://s3.amazonaws.com/shecodesio-production/uploads/files/000/024/422/original/0001-16056832851_20220106_233846_0000.png?1641659629" alt ="deok su"/>`;
+        } else if (pick == 8) {
+          h3.innerHTML = "Caused suffering😠<br/>";
+          h2.innerHTML =
+            `<img src ="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/024/423/original/il_nam.jpg?1641660176" alt ="il nam"/>` +
+            " " +
+            `<img src ="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/024/424/original/0001-16056097373_20220106_232232_0000.png?1641660197" alt ="il nam"/>`;
+        }
+      }
+      let readyButton = document.querySelector("button");
+      readyButton.addEventListener("click", squidGame);
+    </script>
+  </body>
+</html>
